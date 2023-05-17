@@ -1,0 +1,5 @@
+-- import: fastn
+
+-- fastn.package: admint-io.github.io/distribution_templates
+
+-- fastn.dependency: fifthtry.github.io/color-doc
