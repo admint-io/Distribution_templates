@@ -1,2 +1,2 @@
-# fastn-cs-template
-Fastn Color Scheme Template
+# AdMint Distribution Template
+ Repo for distribution template
