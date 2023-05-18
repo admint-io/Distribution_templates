@@ -87,7 +87,7 @@ margin-left.px: 40
 padding-vertical.px: 40
 -- ftd.text: Logo
 text-align: center
-color: $inherited.colors.text-strong
+color: $colors.text-
 -- end: ftd.column
 
 -- ftd.column:
@@ -127,7 +127,7 @@ spacing.fixed.px: 32
 height: fill-container
 align-content: center
 -- ftd.text: Label
-color: $inherited.colors.text-strong
+color: $colors.text-
 text-align: center
 -- end: ftd.column
 -- end: navlink
@@ -171,7 +171,7 @@ background.solid: $colors.base-
 
 -- ftd.row:
 -- ftd.text: The Seven Collection
-color: $colors.text-strong-
+color: $colors.text-
 role: $inherited.types.heading-large
 -- end: ftd.row
 
@@ -179,14 +179,14 @@ role: $inherited.types.heading-large
 width.fixed.px: 688
 -- ftd.text: In Partnership with Seva.Love and Artifex, the NFT Edition positions Chopra's timeless wisdom in a new light, in time for the 25th Anniversary of Chopra’s Bestseller, The Seven Spiritual Laws of Success.
 text-align: center
-color: $colors.text-strong-
+color: $colors.text-
 -- end: ftd.row
 
 -- ftd.row:
 width.fixed.px: 688
 -- ftd.text: The mint for TIMEPieces x Deepak Chopra: The Seven Collection is now closed as of January 22, 2023.
 text-align: center
-color: $colors.text-strong-
+color: $colors.text-
 -- end: ftd.row
 
 ;; gif section
@@ -251,7 +251,7 @@ height.fixed.px: 208
 -- ftd.column:
 -- ftd.text: About the Drop
 role: $inherited.types.heading-hero
-color: $colors.text-strong-
+color: $colors.text-
 -- ftd.image:
 width.fixed.px: 298
 height.fixed.px: 528
@@ -314,17 +314,17 @@ width: fill-container
 height.fixed.px: 65
 -- ftd.text: What is Admint
 role: $inherited.types.heading-large
-color: $colors.text-strong-
+color: $colors.text-
 -- end: ftd.row
 
 -- ftd.row:
 -- ftd.column:
 -- ftd.text: The Collection includes work by 73 incredible artists from six different continents across five artistic mediums. Each artist was asked to interpret the messages of The Seven Spiritual Laws of Success into a unique book cover, capturing what is described as “a connection between the power of art and the power and potential of human beings.”
 role: $inherited.types.copy-regular
-color: $colors.text-strong-
+color: $colors.text-
 -- ftd.text: The Collection includes work by 73 incredible artists from six different continents across five artistic mediums.
 role: $inherited.types.copy-regular
-color: $colors.text-strong-
+color: $colors.text-
 -- end: ftd.column
 -- end: ftd.row
 
@@ -357,7 +357,7 @@ width.fixed.px: 470
 height.fixed.px: 60
 -- ftd.text: How to Participate
 role: $inherited.types.heading-large
-color: $colors.text-strong-
+color: $colors.text-
 -- end: ftd.row
 
 -- ftd.row:
@@ -393,7 +393,7 @@ width.fixed.px: 380
 height.fixed.px: 620
 border-radius.px: 20
 border-width.px: 4
-border-color: yellow
+border-color: $colors.cta-primary-base-
 background.solid: $colors.base-
 padding-top.px: 30
 margin-horizontal.px: 18
@@ -409,7 +409,7 @@ padding-top.px: 36
 padding-horizontal.px: 18
 -- ftd.text: Members earn 1 point for every $1 spent. Once you accrue 150, 250 or 350 points, you are eligible to redeem points for a product with any purchase.
 role: $inherited.types.copy-regular
-color: $colors.text-strong-
+color: $colors.text-
 -- end: ftd.row
 
 -- end: ftd.column
@@ -437,7 +437,7 @@ width.fixed.px: 534
 height.fixed.px: 65
 -- ftd.text: The Seven Collection
 role: $inherited.types.heading-large
-color: $colors.text-strong-
+color: $colors.text-
 -- end: ftd.row
 
 -- ftd.row:
@@ -447,7 +447,7 @@ height.fixed.px: 90
 -- ftd.text: The Collection includes work by 73 incredible artists from six different continents across five artistic mediums. Each artist was asked to interpret the messages of The Seven Spiritual Laws of Success into a unique book cover, capturing what is described as “a connection between the power of art and the power and potential of human beings.”
 role: $inherited.types.copy-regular
 text-align: center
-color: $colors.text-strong-
+color: $colors.text-
 -- end: ftd.row
 
 -- ftd.row:
@@ -488,8 +488,10 @@ spacing.fixed.px: 30
 -- ftd.column:
 width.fixed.px: 270
 height.fixed.px: 372
-background.solid: #F9D963
+background.solid: $colors.step-1-
 border-radius.px: 20
+border-width.px: 4
+border-color: $colors.cta-primary-base-
 align-content: top-center
 padding-top.px: 20
 padding-horizontal.px: 20
@@ -500,15 +502,27 @@ src: images/clctn.png
 -- end: ftd.row
 
 -- ftd.row:
-padding-top.px: 60
+margin-top.px: 17
+width.fixed.px: 240
+align-content: left
+-- ftd.text: NFT name
+role: $inherited.types.heading-tiny
+color: $colors.cta-primary-base-
+-- end: ftd.row
+
+
+-- ftd.row:
+margin-top.px: 16
 width.fixed.px: 240
 height.fixed.px: 30
 spacing.fixed.px: 115
 -- ftd.text: Price
 role: $inherited.types.copy-regular
+color: $colors.text-
 -- ftd.text: 0.077 ETH
 white-space: nowrap
 role: $inherited.types.copy-regular
+color: $colors.text-
 -- end: ftd.row
 
 -- end: ftd.column
@@ -522,7 +536,7 @@ margin-top.px: 150
 margin-horizontal.px: 40
 width.fixed.px: 1360
 height.fixed.px: 424
-background.solid: #F9D54C
+background.solid: $colors.cta-primary-base-
 border-radius.px: 20
 align-content: center
 
@@ -534,6 +548,7 @@ align-content: top-center
 -- ftd.row:
 -- ftd.text: To Participate, drop your Wallet ID here
 role: $inherited.types.heading-medium
+color: $colors.cta-primary-text-
 -- end: ftd.row
 
 -- ftd.row:
@@ -542,6 +557,7 @@ width: fill-container
 height.fixed.px: 60
 -- ftd.text:  The Collection includes work by 73 incredible artists from six different continents across five artistic mediums. Each artist was asked to interpret the messages of The Seven Spiritual Laws of Success into a unique book cover, 
 role: $inherited.types.copy-regular
+color: $colors.cta-primary-text-
 text-align: center
 -- end: ftd.row
 
@@ -553,9 +569,10 @@ height.fixed.px: 57
 width.fixed.px: 626
 height: fill-container
 border-radius.px: 56
-background.solid: white
+background.solid: $colors.base-
 placeholder: Enter your wallet ID
 role: $inherited.types.blockquote
+color: $colors.text-
 padding-left.px: 40
 -- ftd.column:
 align-content: center
@@ -563,9 +580,9 @@ margin-left.px: 28
 width.fixed.px: 196
 height: fill-container
 border-radius.px: 56
-background.solid: #F2665F
+background.solid: $colors.cta-tertiary-base-
 -- ftd.text: Connect Now!
-color: white
+color: $colors.text-
 role: $inherited.types.blockquote
 -- end: ftd.column
 -- end: ftd.row
@@ -583,11 +600,18 @@ caption t1:
 margin-top.px: 60
 width.fixed.px: 730
 height.fixed.px: 134
-background.solid: white
+border-radius.px: 10
+border-color: $colors.cta-primary-base-
+border-bottom-width.px: 6
+border-top-width.px: 1
+border-right-width.px: 1
+border-left-width.px: 1
+background.solid: $colors.base-
 align-content: left
 padding-left.px: 20
 -- ftd.text: $faqtabs.t1
 role: $inherited.types.heading-small
+color: $colors.text-
 -- end: ftd.row
 -- end: faqtabs
 
@@ -596,7 +620,7 @@ role: $inherited.types.heading-small
 margin-top.px: 150
 width.fixed.vw: 100
 height.fixed.px: 1087
-background.solid: #F9D963
+background.solid: $colors.step-1-
 align-content: center
 padding-vertical.px: 66
 padding-horizontal.px: 355
@@ -604,11 +628,12 @@ padding-horizontal.px: 355
 -- ftd.column:
 width: fill-container
 height.fixed.px: 955
-background.solid: #F9D54C
+background.solid: $colors.step-1-
 align-content: top-center
 
 -- ftd.text: FAQ
 role: $inherited.types.heading-large
+color: $colors.text-
 
 -- faqtabs:
 t1: How do I get on the allow list for this collection?
@@ -632,7 +657,7 @@ t1: How do I get on the allow list for this collection?
 -- ftd.row:
 width: fill-container
 height.fixed.px: 300
-background.solid: #F9D54C
+background.solid: $colors.cta-primary-base-
 padding-vertical.px: 64
 padding-horizontal.px: 131
 align-content: center
@@ -649,6 +674,7 @@ spacing.fixed.px: 40
 role: $inherited.types.heading-small
 -- ftd.text: Stay in touch with everything you need
 role: $inherited.types.label-large
+color: $colors.cta-primary-text-
 -- end: ftd.row
 
 -- ftd.row:
@@ -666,6 +692,7 @@ spacing.fixed.px: 714
 align-content: center
 -- ftd.text: Copyright ©2022. Fastn Inc. 
 role: $inherited.types.label-large
+color: $colors.cta-primary-text-
 -- ftd.column:
 width.fixed.px: 216
 height.fixed.px: 24
