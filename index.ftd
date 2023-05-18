@@ -5,9 +5,7 @@
 -- import: admint-io.github.io/distribution_templates/colors as colors
 
 -- ftd.column:
-width: fill-container
-height: fill-container
-background.solid: green
+background.solid: $colors.base-
 
 
 
