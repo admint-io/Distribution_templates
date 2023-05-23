@@ -3,9 +3,11 @@
 -- import: fastn/processors as pr
 -- import: fifthtry.github.io/color-doc as cd
 -- import: admint-io.github.io/distribution_templates/colors as colors
+-- import: fastn-community.github.io/opensans-typography
 
 -- ftd.column:
 background.solid: $colors.base-
+types: $opensans-typography.types
 
 
 
@@ -83,9 +85,10 @@ height.fixed.px: 33
 ;;background.solid: yellow
 margin-left.px: 40
 padding-vertical.px: 40
--- ftd.text: Logo
+-- ftd.text: LOGO
 text-align: center
 color: $colors.text-
+role: $inherited.types.heading-small
 -- end: ftd.column
 
 -- ftd.column:
@@ -127,6 +130,7 @@ align-content: center
 -- ftd.text: Label
 color: $colors.text-
 text-align: center
+role: $inherited.types.button-large
 -- end: ftd.column
 -- end: navlink
 
@@ -144,6 +148,7 @@ width.fixed.px: 488
 height.fixed.px: 30
 -- ftd.text: Lorem ipsum dolor sit amet consectetur adipiscin.
 color: $colors.cta-primary-text-
+role: $inherited.types.button-large
 -- end: ftd.column
 
 
@@ -170,7 +175,7 @@ background.solid: $colors.base-
 -- ftd.row:
 -- ftd.text: The Seven Collection
 color: $colors.text-
-role: $inherited.types.heading-large
+role: $inherited.types.heading-hero
 -- end: ftd.row
 
 -- ftd.row:
@@ -178,6 +183,7 @@ width.fixed.px: 688
 -- ftd.text: In Partnership with Seva.Love and Artifex, the NFT Edition positions Chopra's timeless wisdom in a new light, in time for the 25th Anniversary of Chopra’s Bestseller, The Seven Spiritual Laws of Success.
 text-align: center
 color: $colors.text-
+role: $inherited.types.copy-regular
 -- end: ftd.row
 
 -- ftd.row:
@@ -185,6 +191,7 @@ width.fixed.px: 688
 -- ftd.text: The mint for TIMEPieces x Deepak Chopra: The Seven Collection is now closed as of January 22, 2023.
 text-align: center
 color: $colors.text-
+role: $inherited.types.copy-regular
 -- end: ftd.row
 
 ;; gif section
@@ -216,13 +223,15 @@ height.fixed.px: 107
 ;;background.solid: white
 align-content: center
 -- ftd.column:
+align-content: center
 -- ftd.text: $timer.h1
-role: $inherited.types.heading-medium
+role: $inherited.types.heading-large
 color: $colors.cta-primary-text-
 white-space: nowrap
 -- ftd.text: $timer.h2
-role: $inherited.types.heading-small
+role: $inherited.types.copy-regular
 color: $colors.cta-primary-text-
+text-align: center
 -- end: ftd.column
 -- end: ftd.row
 -- end: timer
